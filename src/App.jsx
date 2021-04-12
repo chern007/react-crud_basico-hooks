@@ -1,4 +1,5 @@
 import React from 'react';
+import Contador from './components/Contador';
 import Usuarios from './components/Usuarios';
 
 function App() {
@@ -7,7 +8,13 @@ function App() {
 
       <Usuarios></Usuarios>
 
+      <hr/>
+
+      <Contador></Contador>
+
     </div>
+
+
   );
 }
 
